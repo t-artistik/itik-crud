@@ -1,0 +1,108 @@
+.forms {
+margin-right: 10px; 
+padding-right: 10px; 
+width: 10em; 
+display: block; 
+text-align: left;
+float: left; 
+}
+label.form { 
+margin-right: 10px; 
+padding-right: 10px; 
+width: 30em; 
+display: block; 
+text-align: right; 
+}
+.form span {
+text-align: left;
+padding-left: 1.5em;
+}
+
+input {
+border: 1px solid blue;
+background-color: #FFFF8C;
+}
+
+input:focus {
+border: 2px solid #900;
+background-color: #C6FF86;
+}
+
+div label {
+padding: 2px;
+}
+
+.form button {
+font-weight: bold;
+border: 2px outset red;
+}
+
+.list {
+border-collapse: collapse;
+border-width: 1px single blue;
+width: 80%;
+}
+
+.list th {
+background-color: #C7A859;
+padding: 2px;
+}
+
+.list td {
+vertical-align: top;
+}
+
+#lbl_id {
+display:none;
+}
+
+.navbot a {
+text-decoration: none;
+color: #A52A2A;
+display: inline;
+width: 5em;
+border: 1px solid #1C7900;
+text-align: center;
+padding-left: 5px;
+padding-right: 5px;
+background-color: #BFBFBF;
+}
+
+.navbot a:hover {
+background-color: #ECDEDE;
+}
+
+h3:before {
+margin-top: -10px;
+white-space:pre;
+}
+
+#header {
+background-color: #ECECEC;
+}
+
+#sidebar {
+padding: 0 0px;
+background: #FFFFFF url(none) repeat scroll;
+}
+
+#menu li {
+list-style: square outside none;
+}
+
+#konten {
+	background-color:#FFFFFF;
+	padding: 0 0px 0 5px;
+	min-height:70%;
+	height: 100%;
+}
+
+p {
+margin-top: 0px;
+margin-bottom: 0px;
+float: left;
+}
+
+fieldset {
+width: 80%;
+}
